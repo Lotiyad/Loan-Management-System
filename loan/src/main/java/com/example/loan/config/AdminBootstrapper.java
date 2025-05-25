@@ -22,7 +22,7 @@ public class AdminBootstrapper implements CommandLineRunner {
         if (userRepository.findByEmail(adminEmail).isEmpty()) {
             User admin = User.builder()
                     .email(adminEmail)
-                    .password(passwordEncoder.encode("admin123")) // You can change the password
+                    .password(passwordEncoder.encode("")) // You can change the password
                     .role(Role.ADMIN)
                     .build();
 
