@@ -1,9 +1,9 @@
 # Loan-Management-System
 A secure and role-based Loan Management System built with Spring Boot, Spring Security, and JWT. It allows customers to apply for loans, admins to approve/reject them, and automatically calculates EMIs and repayment schedules.
 
-
+---
 🚀 Features
-
+---
 ✅ Authentication
 
 User registration & login
@@ -13,11 +13,11 @@ JWT-based stateless authentication
 Role-based access control (CUSTOMER, ADMIN)
 
 🧾 Loan Application (Customer)
-
+---
 Submit loan application with type, duration, income, etc.
 
 ✔️ Loan Approval (Admin)
-
+---
 Approve or reject pending loans with remarks
 
 Generate loan start date and EMI
@@ -25,13 +25,13 @@ Generate loan start date and EMI
 Automatically create a repayment schedule
 
 💸 Repayment Tracking
-
+---
 Repayment entities generated on approval
 
 Future support for marking payments as paid
 
 🛠 Tech Stack
-
+---
 Backend:	Spring Boot, Spring Security
 
 Authentication:	JWT
@@ -43,7 +43,7 @@ Database:	PostgreSQL
 Build Tool:	Maven
 
  Setup Instructions
- 
+ ---
 1. Clone the Repository
 <pre> git clone https://github.com/yourusername/loan-management-system.git 
   cd loan 
