@@ -45,7 +45,7 @@ Build Tool:	Maven
  Setup Instructions
  ---
 1. Clone the Repository
-<pre> git clone https://github.com/yourusername/loan-management-system.git 
+<pre> git clone https://github.com/Lotiyad/loan-management-system.git 
   cd loan 
 </pre>
 
